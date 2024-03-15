@@ -1,0 +1,51 @@
+@media screen and (max-width: 980px){
+    
+    * {
+        font-size: 25px;
+    }
+    
+    header, main, footer{
+        width: 92.5%;
+    }
+
+    #main-app , #sec3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .article1 {
+        display: flex;
+        flex-direction: column;
+    }
+    header > nav {
+        display: none;
+    }
+    .card-img {
+        height: 8rem;
+    }
+    .menu-button {
+        display: inline-block;
+    }
+    #sec1-img{
+        display: none;
+    }
+    #sec1-mobile-img{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 590px){
+    * {
+        font-size: 25px;
+    }   
+
+}
+@media screen and (max-width: 430px){
+    * {
+        font-size: 18px;
+    }   
+}
+@media screen and (max-width: 300px){
+    #header-navbar {
+        width: 75%;
+    }   
+}
